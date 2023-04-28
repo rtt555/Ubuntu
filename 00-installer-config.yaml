@@ -1,0 +1,10 @@
+network:
+ ethernets:
+  eth0:
+   addresses: [10.2.0.00000000000000/22]
+   gateway4: 10.2.0.1
+   nameservers:
+    addresses: [10.1.0.100, 10.1.0.14, 10.1.0.13]
+    search:
+    - corp.akelon.com
+ version: 2
